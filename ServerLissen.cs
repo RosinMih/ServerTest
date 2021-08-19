@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace ServerTest
 {
-    public class ServerLissen
+    public class ServerLissen : MainFormServer
     {
-        public static void Lissen(object obj)
+        internal static void Lissen(object obj)
             //This method creates a socket,
             //listens to this socket,
             //sends a response message when receiving messages,

@@ -81,7 +81,7 @@ namespace ServerTest
         }
 
     }
-    public class parameters_to_serverLissen
+    internal class parameters_to_serverLissen
     {
         public string IP_to_serverLissen;
         public int Port_to_serverLissen;
